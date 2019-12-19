@@ -36,7 +36,7 @@ end
 
 def add_s(arr)
 
-  arr.collect.each {|i| ni + "s"}
+  arr.collect.each {|i| i + "s"}
   new_arr
 end
 
