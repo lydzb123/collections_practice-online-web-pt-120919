@@ -9,5 +9,3 @@ end
 def sort_array_char_count(arr)
   arr.sort_by{|i| i.length}
 end
-
-print sort_array_char_count(["aaa", "aa", "aaaaaaa"])
