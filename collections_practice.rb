@@ -37,7 +37,3 @@ def add_s(arr)
   arr.each {|i| i << "s"}
   arr
 end
-
-
-
-print add_s(["cat", "dog", "bear"])
