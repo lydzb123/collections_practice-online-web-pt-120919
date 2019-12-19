@@ -15,7 +15,7 @@ def swap_elements(arr)  #([0,1,2,3])  I want to swap 1 and 2
   arr
 end
 
-def reverse_array(arr) #FIX!!
+def reverse_array(arr)
   arr.reverse
 end
 
