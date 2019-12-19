@@ -22,7 +22,7 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
-  arr.each {|i| i.include? ("a")}
+  arr.each {|i| i.first ("a")}
 end
 
 ["candy", "apple", "fish", "allocate"]
