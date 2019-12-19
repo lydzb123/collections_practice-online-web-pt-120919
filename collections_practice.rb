@@ -11,7 +11,7 @@ def sort_array_char_count(arr)
 end
 
 def swap_elements(arr)  #([0,1,2,3])  I want to swap 1 and 2
-  arr.sort do |a,b,c| b,c ==c,b
+  arr.sort do |a,b,c| b,c ==c,b end
     arr
 end
 
