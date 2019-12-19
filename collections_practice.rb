@@ -11,8 +11,16 @@ def sort_array_char_count(arr)
 end
 
 def swap_elements(arr)  #([0,1,2,3])  I want to swap 1 and 2
-  arr.sort do |a,b,c| b,c ==c,b end
-    arr
+  arr[1], arr[2] = arr[2], arr[1]
+
+
+  array = [4, 5, 6, 7]
+
+array[0], array[3] = array[3], array[0]
+
+array # => [7, 5, 6, 4]
+
+
 end
 
 def reverse_array(arr) #FIX!!
