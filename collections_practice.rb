@@ -26,7 +26,7 @@ def find_a(arr) #FIX!!
 end
 
 
-def sum_array(numbers)
+def sum_array(num)
   sum = 0
-  numbers.each { |i| sum += i }
+  num.each { |i| sum += i }
 end
