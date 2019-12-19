@@ -35,8 +35,8 @@ def sum_array(num)
 end
 
 def add_s(arr)
-  arr.each_with_index.map {|elem, index|
-    index == 1 ? elem : elem << "s"}
+  arr.each_with_index.map do |elem, index|
+    index == 1 ? elem : elem << "s" end
 end
 
 
