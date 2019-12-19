@@ -20,5 +20,3 @@ end
 def kesha_maker(arr)
   arr.each {|i| i[2] = "$"}
 end
-
-print kesha_maker(["heeeey", "youuuu", "kid"])
