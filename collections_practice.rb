@@ -34,7 +34,7 @@ end
 
 def add_s(arr)
   arr.each {|i| i << "s"}
-  arr[1]
+  arr.each {|i| i[1]}
 
   arr
 end
