@@ -37,3 +37,5 @@ def add_s(arr)
   arr.select {|i| (i != 2) << "s"}
   arr
 end
+
+add_s(["hands", "feets", "knees", "tables"])
