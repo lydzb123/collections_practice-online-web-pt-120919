@@ -24,5 +24,3 @@ end
 def find_a(arr)
   arr.each {|i| i.first == "a"}
 end
-
-print find_a(["candy", "apple", "fish", "allocate"])
