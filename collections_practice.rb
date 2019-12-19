@@ -36,6 +36,7 @@ def sum_array(num)
 end
 
 def add_s(arr)
+  new_arr = []
   arr.each_with_index {|i, index| i << "s" unless index == 1}
-  arr
+  new_arr
 end
