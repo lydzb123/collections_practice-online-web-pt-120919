@@ -34,8 +34,9 @@ end
 
 def add_s(arr)
   if arr[2]
+  else
   arr.each {|i| i << "s"}
-else
+
   arr
 end
 
