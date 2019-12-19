@@ -35,10 +35,9 @@ def sum_array(num)
 end
 
 def add_s(arr)
-  new_arr = []
-  arr.each {|i| new_arr << i + "s"}
+
+  arr.collect.each {|i| ni + "s"}
   new_arr
 end
 
-
-print add_s(["apple", "orange", "pear", "avis", "arlo", "ascot"])
+print add_s(["apple", "orange", "pear"]
