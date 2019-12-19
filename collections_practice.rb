@@ -14,7 +14,7 @@ def swap_elements(arr) #FIX!!
 end
 
 def reverse_array(arr) #FIX!!
-  arr.sort.reverse do |a,b| a<=>b end
+  arr.reverse
 end
 
 def kesha_maker(arr)
