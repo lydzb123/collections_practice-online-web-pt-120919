@@ -12,6 +12,7 @@ end
 
 def swap_elements(arr)
   arr.sort do |a, b, c| [b], [c] == [c], [b] end
+    arr
 end
 
 print swap_elements([1,2,3,4])
