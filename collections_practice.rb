@@ -32,8 +32,8 @@ def sum_array(num)
   sum
 end
 
-def add_s(arr)  
-  arr.each {|i| i << "s"}
+def add_s(arr)
+  arr.except([2]).each {|i| i << "s"}
 
 end
 
