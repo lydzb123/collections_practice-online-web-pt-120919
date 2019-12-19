@@ -24,5 +24,3 @@ end
 def find_a
   arr.find {|i| i.first == "a"}
 end
-
-
