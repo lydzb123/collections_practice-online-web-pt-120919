@@ -37,3 +37,5 @@ def add_s(arr)
   arr.each {|i| i << "s"}
   arr
 end
+
+  arr.select {|w| w.start_with?('a')}
