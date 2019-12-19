@@ -22,5 +22,8 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
-  arr.each_with_index {|i, index| i[0] == "a"}
+  arr.each {|i| i == "a"}
 end
+
+
+
