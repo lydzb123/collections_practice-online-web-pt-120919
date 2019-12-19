@@ -35,7 +35,7 @@ def sum_array(num)
 end
 
 def add_s(arr)
-  arr[1,2].each_with_index.collect {|elem, i| elem << "s"}
+  arr[2].each_with_index.collect {|elem, i| elem << "s"}
   new_arr
 end
 
