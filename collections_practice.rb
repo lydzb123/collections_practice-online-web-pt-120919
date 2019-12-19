@@ -34,7 +34,6 @@ end
 
 def add_s(arr)
   arr.each {|i| i << "s"}
-  arr.each {|i| i[1].pop }
 
   arr
 end
