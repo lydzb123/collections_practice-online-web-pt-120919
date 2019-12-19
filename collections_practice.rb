@@ -14,4 +14,5 @@ def swap_elements(arr)
 end
 
 def reverse_array(arr)
+  arr.sort do |a,b| b,c end
 end
