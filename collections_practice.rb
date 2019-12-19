@@ -37,6 +37,6 @@ end
 
 def add_s(arr)
   new_arr = []
-  arr.each unless arr[1] {|i| i << "s"}
+  arr.each unless arr[1] {|i| new_arr << (i << "s") }
   new_arr
 end
