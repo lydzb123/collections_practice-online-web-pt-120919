@@ -22,8 +22,9 @@ def kesha_maker(arr)
 end
 
 def find_a(arr) #FIX!!
-  arr.each {|i| i[0] == "a"}
+  arr.select {|w| w.start_with?('a')}
 end
+
 
 
 def sum_array(num)
@@ -36,5 +37,7 @@ def add_s(arr)
   arr.each {|i| i << "s"}
   arr
 end
+
+
 
 print add_s(["cat", "dog", "bear"])
