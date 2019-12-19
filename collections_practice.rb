@@ -7,7 +7,7 @@ def sort_array_desc(arr)
 end
 
 def sort_array_char_count(arr)
-  arr.sort_by {|i| i.count}
+  arr.sort_by {|i| [i.length, i]}
 end
 
 print sort_array_char_count(["aaa", "aa", "aaaaaaa"])
