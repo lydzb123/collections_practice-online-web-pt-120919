@@ -40,8 +40,6 @@ def add_s(arr)
 end
 
 
-input.each_with_index.map do |element, index|
-    index == 1 ? element : element + "s"
 
 
 print add_s(["apple", "orange", "pear"])
