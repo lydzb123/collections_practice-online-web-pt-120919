@@ -40,7 +40,6 @@ def add_s(arr)
 end
 
 
-[1,2].each_with_index.collect{|element, index| }
 
 
 print add_s(["apple", "orange", "pear"])
