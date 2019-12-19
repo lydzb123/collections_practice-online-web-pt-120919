@@ -25,7 +25,7 @@ def find_a(arr) #FIX!!
   arr.select {|w| w.start_with?('a')}
 end
 
-
+print find_a(["apple", "orange", "pear", "avis", "arlo", "ascot"])
 
 def sum_array(num)
   sum = 0
