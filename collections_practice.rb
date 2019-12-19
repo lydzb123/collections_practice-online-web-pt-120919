@@ -14,7 +14,7 @@ def swap_elements(arr)
   x = arr[2]
   y = arr[3]
   x,y = arr[3],arr[2]
-    arr
+  arr
 end
 
 print swap_elements([1,2,3,4])
