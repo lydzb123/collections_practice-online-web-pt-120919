@@ -39,5 +39,3 @@ def add_s(arr)
   arr.each_with_index {|i, index| i << "s" unless index == 1}
   arr
 end
-
-add_s(["hands", "feets", "knees", "tables"])
