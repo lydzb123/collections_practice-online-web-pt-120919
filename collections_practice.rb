@@ -29,5 +29,4 @@ end
 def sum_array(arr)
   sum = 0
   arr.each{ |i| sum += i}
-  return sum
 end
