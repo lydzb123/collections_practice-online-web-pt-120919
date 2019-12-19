@@ -25,4 +25,4 @@ def find_a(arr)
   arr.each {|i| i.first ("a")}
 end
 
-["candy", "apple", "fish", "allocate"]
+find_a(["candy", "apple", "fish", "allocate"])
