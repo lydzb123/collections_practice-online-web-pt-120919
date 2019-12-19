@@ -10,7 +10,7 @@ def sort_array_char_count(arr)
   arr.sort_by{|i| i.length}
 end
 
-def swap_elements(arr)  #([0,1,2,3])  I want to swap 1 and 2
+def swap_elements(arr) 
   arr[1], arr[2] = arr[2], arr[1]
   arr
 end
