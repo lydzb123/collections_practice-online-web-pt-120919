@@ -34,6 +34,6 @@ def sum_array(num)
 end
 
 def add_s(arr)
-  arr.select {|i| i != 2}
+  arr.select {|i| (i != 2) << "s"}
   arr
 end
