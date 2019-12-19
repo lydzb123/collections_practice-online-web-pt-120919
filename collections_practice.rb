@@ -23,5 +23,4 @@ end
 
 def find_a(arr)
   arr.each_with_index {|i, index| i[0] == "a"}
-
 end
