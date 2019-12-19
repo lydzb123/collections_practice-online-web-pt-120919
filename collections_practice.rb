@@ -16,3 +16,5 @@ end
 def reverse_array(arr)
   arr.sort do |a,b| b<=> end
 end
+
+reverse_array([1,2,3,4,5])
