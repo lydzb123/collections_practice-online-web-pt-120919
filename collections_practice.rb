@@ -24,7 +24,3 @@ end
 def find_a(arr)
   arr.each {|i| i.each.includes? ("a")}
 end
-
-
-
-
