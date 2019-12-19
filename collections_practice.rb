@@ -33,5 +33,7 @@ def sum_array(num)
 end
 
 def add_s(arr)
-  arr.each {|i| i << "s" }
+  arr.insert {|i| i << "s" }
 end
+
+print add_s(["cat", "dog", "bear"])
