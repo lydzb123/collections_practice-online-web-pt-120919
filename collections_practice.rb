@@ -10,7 +10,7 @@ def sort_array_char_count(arr)
   arr.sort_by{|i| i.length}
 end
 
-def swap_elements(arr) 
+def swap_elements(arr)
   arr[1], arr[2] = arr[2], arr[1]
   arr
 end
@@ -36,7 +36,7 @@ def sum_array(num)
 end
 
 def add_s(arr)
-  arr.each {|i| i << "s"}
+  arr.each_with_index {|i, index| i << "s" unless index == 1}
   arr
 end
 
