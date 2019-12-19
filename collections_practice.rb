@@ -22,6 +22,6 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
-  arr.includes? {|i| i[0] == "a"}
+  arr.include? {|i| i[0] == "a"}
 
 end
