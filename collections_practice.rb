@@ -32,12 +32,9 @@ def sum_array(num)
   sum
 end
 
-def add_s(arr)
-  if arr[2]
-  else
+def add_s(arr)  
   arr.each {|i| i << "s"}
-end
-  arr
+
 end
 
 print add_s(["cat", "dog", "bear"])
