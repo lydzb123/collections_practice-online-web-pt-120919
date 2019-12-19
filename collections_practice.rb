@@ -33,7 +33,10 @@ def sum_array(num)
 end
 
 def add_s(arr)
+  i = 0
+  while i > arr.length
   arr.each {|i| i << "s"}
+  end
 
 end
 
