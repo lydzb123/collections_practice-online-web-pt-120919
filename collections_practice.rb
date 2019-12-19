@@ -38,8 +38,3 @@ def add_s(arr)
   arr.each_with_index.map do |elem, index|
     index == 1 ? elem : elem << "s" end
 end
-
-
-
-
-print add_s(["apple", "orange", "pear"])
