@@ -26,6 +26,6 @@ def find_a(arr) #FIX!!
 end
 
 
-def sum_array
-  
+def sum_array(arr)
+
 end
