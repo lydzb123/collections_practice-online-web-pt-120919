@@ -35,10 +35,13 @@ def sum_array(num)
 end
 
 def add_s(arr)
-  arr.collect{|elem| elem << "s"}
-
+  arr.each_with_index.map do |elem, index|
+    index == 1 ? elem : elem << "s"
 end
 
+
+input.each_with_index.map do |element, index|
+    index == 1 ? element : element + "s"
 
 
 print add_s(["apple", "orange", "pear"])
