@@ -36,7 +36,6 @@ end
 
 def add_s(arr)
   arr.each_with_index.collect{|elem, i| elem << "s"}
-  new_arr
 end
 
 
