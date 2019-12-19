@@ -33,7 +33,7 @@ def sum_array(num)
 end
 
 def add_s(arr)
-  arr.except.each() {|i| i << "s"}
+  arr.each() {|i| i << "s"}
 
 end
 
