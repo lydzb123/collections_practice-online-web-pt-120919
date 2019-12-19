@@ -24,3 +24,5 @@ end
 def find_a(arr)
   arr.each {|i| i.include? ("a")}
 end
+
+["candy", "apple", "fish", "allocate"]
