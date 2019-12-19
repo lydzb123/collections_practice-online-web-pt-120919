@@ -21,6 +21,11 @@ def kesha_maker(arr)
   arr.each {|i| i[2] = "$"}
 end
 
-def find_a(arr)
+def find_a(arr) #FIX!!
   arr.each {|i| i[0] == "a"}
+end
+
+
+def sum_array
+  
 end
