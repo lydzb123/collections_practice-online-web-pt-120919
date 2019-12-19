@@ -21,4 +21,4 @@ def kesha_maker(arr)
   arr.each {|i| i[3] = $}
 end
 
-kesha_maker(["heeeey", "youuuu", "kid"])
+print kesha_maker(["heeeey", "youuuu", "kid"])
